@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,6 +129,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="_01_print.c" />
+    <ClCompile Include="_02_print.c" />
+    <ClCompile Include="_03_var.c" />
+    <ClCompile Include="_04_type.c" />
+    <ClCompile Include="_05_print.c" />
+    <ClCompile Include="_06_oper.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
