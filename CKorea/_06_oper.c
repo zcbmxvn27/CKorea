@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+void main6() {
 	// operation : 연산
 	//숫자끼리는 계산이 가능합니다.
 
@@ -15,7 +15,11 @@ void main() {
 	printf("%d \n", result4);
 
 	int result5 = result1 + result4;
-	printf("%d \n", result5);
+	// = : 수학X, 프로그래밍에서의 대입
+	// 오른쪽에 있는 값을 왼쪽에 있는 저장공간에 담는다
+	printf("%d \n", result5); //왼쪽은 result5공간, 오른쪽은 4
+	result1 = result5;		  //왼쪽은 공간, 오른쪽은 안에 들어있는 값
+	printf("result1의 값은 %d \n", result1);
 	
 	//ctrl + z : 되돌리기
 	//ctrl + y : 되돌리기 취소

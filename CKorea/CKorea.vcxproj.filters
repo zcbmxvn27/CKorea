@@ -33,5 +33,11 @@
     <ClCompile Include="_06_oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_07_oper.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_08_roper.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
