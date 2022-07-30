@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+void main7() {
 	int num1 = 0;
 	int num2 = 0;
 	int num3 = 0;

@@ -7,4 +7,5 @@ void main6() {
 
 	int age = 18;
 	(age >= 20) ? printf("성인입니다.\n") : printf("미성년자입니다.\n");
+
 }
