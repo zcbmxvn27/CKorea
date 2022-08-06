@@ -17,7 +17,7 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         PAINTSTRUCT ps;
         HDC hdc = BeginPaint(hDlg, &ps);
         Graphics gp(hdc);
-        Image img = TEXT("img1.jpg");
+        Image img = TEXT("img1.png");
         gp.DrawImage(&img, 0, 0, 800, 600);
         EndPaint(hDlg, &ps);
     }
