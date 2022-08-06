@@ -9,7 +9,7 @@ void main1() {
 		sum+= i;
 	}
 
-	printf("ÃÑÇÕ : %d\n", sum);
+	printf("ì´í•© : %d\n", sum);
 
 	sum = 0;
 
@@ -19,7 +19,7 @@ void main1() {
 	sum += 3;			// sum = sum + 3
 	sum += 4;			// sum = sum + 4
 
-	printf("ÃÑÇÕ : %d\n", sum);			// 10
+	printf("ÃƒÃ‘Ã‡Ã• : %d\n", sum);			// 10
 
 	//sum = sum + 1;
 	//sum += 1;
