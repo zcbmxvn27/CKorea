@@ -7,7 +7,7 @@ void main9() {
 	}
 	printf("\n");
 
-	// ±¸±¸´Ü
+	// 구구단
 	for (int i = 0; i < 10; i++) {
 		for (int j = 2; j < 10; j++) {
 			printf("%d * %d = %d\t", j, i, i * j);

@@ -6,10 +6,10 @@ void main7() {
 	//}
 
 	int step = 0;
-	printf("¸î´ÜÀ» Ãâ·ÂÇÒ±î¿ä?");
+	printf("몇단을 출력할까요?");
 	scanf("%d", &step);
 
 	for (int i = 1; i <= 9; i++) {
-		printf("%d ¡¿ %d = %d \n", step, i, step * i);
+		printf("%d × %d = %d \n", step, i, step * i);
 	}
 }
