@@ -45,7 +45,7 @@ void B(int a, int b) {
 }
 
 
-//c언어의 시작점은 main()함수이다
+//c언어의 시작점은 main()함수이다 
 int main() {
 	Sum(2, 2);
 	printf("\n");

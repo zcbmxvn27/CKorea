@@ -18,22 +18,19 @@
     <ClCompile Include="Review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_01_loop.c">
+    <ClCompile Include="_01_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_02_loop.c">
+    <ClCompile Include="_02_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_03_loop.c">
+    <ClCompile Include="_03_type.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_04_loop.c">
+    <ClCompile Include="_04_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_05_func.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_06_func.c">
+    <ClCompile Include="_05_preview.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

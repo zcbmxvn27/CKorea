@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{be61c602-68a0-40c1-9aef-98b4679e9687}</ProjectGuid>
-    <RootNamespace>Day5</RootNamespace>
+    <ProjectGuid>{a9ce02f6-9aa3-41e3-a7ae-621d6fab7922}</ProjectGuid>
+    <RootNamespace>Mine</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Review.c" />
-    <ClCompile Include="_01_loop.c" />
-    <ClCompile Include="_02_loop.c" />
-    <ClCompile Include="_03_loop.c" />
-    <ClCompile Include="_04_loop.c" />
-    <ClCompile Include="_05_func.c" />
-    <ClCompile Include="_06_func.c" />
+    <ClCompile Include="Kiosk.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

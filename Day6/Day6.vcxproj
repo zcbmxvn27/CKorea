@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{be61c602-68a0-40c1-9aef-98b4679e9687}</ProjectGuid>
-    <RootNamespace>Day5</RootNamespace>
+    <ProjectGuid>{b4ddd026-3b35-48da-8a26-546767cb0c10}</ProjectGuid>
+    <RootNamespace>Day6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -101,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>false</SDLCheck>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -115,7 +115,7 @@
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>false</SDLCheck>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -128,12 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Review.c" />
-    <ClCompile Include="_01_loop.c" />
-    <ClCompile Include="_02_loop.c" />
-    <ClCompile Include="_03_loop.c" />
-    <ClCompile Include="_04_loop.c" />
-    <ClCompile Include="_05_func.c" />
-    <ClCompile Include="_06_func.c" />
+    <ClCompile Include="_01_func.c" />
+    <ClCompile Include="_02_func.c" />
+    <ClCompile Include="_04_func.c" />
+    <ClCompile Include="_03_type.c" />
+    <ClCompile Include="_05_preview.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

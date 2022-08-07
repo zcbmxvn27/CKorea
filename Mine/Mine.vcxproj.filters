@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Review.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_01_loop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_02_loop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_03_loop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_04_loop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_05_func.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_06_func.c">
+    <ClCompile Include="Kiosk.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
