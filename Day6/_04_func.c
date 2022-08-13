@@ -13,7 +13,7 @@ int function2() {
 	// 3333À» Ãâ·Â
 }
 
-int main4() {
+int main6() {
 	function2();
 	printf("%d\n", 3333);
 

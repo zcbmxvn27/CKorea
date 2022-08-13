@@ -15,7 +15,7 @@ int function4(int num) {
 	printf("%d \n", num);
 }
 
-int main5() {
+int main() {
 	// 포인터 : C언어를 사용하는 이유
 	int num = 0;
 	int* p_num = &num;			// num 위치를 저장하고
