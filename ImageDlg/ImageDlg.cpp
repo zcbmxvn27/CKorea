@@ -1,5 +1,6 @@
 ﻿#include "framework.h"
 #include "ImageDlg.h"
+
 #include <gdiplus.h>
 #pragma comment(lib, "gdiplus")
 using namespace Gdiplus;
